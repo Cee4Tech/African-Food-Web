@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 50px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: white;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 40px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.cards{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding:0 50px;
+    gap: 40px;
+
+}
+
+.image img{
+    border-radius: 3px;
+}
+
+.main-card{
+    display: flex;
+    gap: 20px;
+}
