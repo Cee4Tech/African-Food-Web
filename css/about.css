@@ -1,0 +1,58 @@
+form{
+    background-color: rgb(54, 57, 254);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+form h1{
+    color: white;
+}
+
+.inputfield{
+    width: 500px;
+/* background-color: blue; */
+padding: 20px;
+}
+
+/* .inputfield label{
+    color: white;
+} */
+
+.inputfield input{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+   background-color: unset;
+   border: 1px solid white;
+   color: white;
+}
+
+.inputfield input::placeholder{
+    color: white;
+}
+
+.inputfield textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: unset;
+    border: 1px solid white;
+}
+
+.inputfield textarea::placeholder{
+    color: white;
+}
+
+.submittbutton{
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+}
